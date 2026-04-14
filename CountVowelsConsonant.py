@@ -1,0 +1,5 @@
+s=input().lower()
+v=sum(1 for c in s if c in 'aeiou')
+c=sum(1 for c in s if c.isalpha() and c not in 'aeiou')
+print("Vowels:", v)
+print("Consonants:", c)
