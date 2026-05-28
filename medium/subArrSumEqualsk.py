@@ -18,3 +18,4 @@ def subarray_sum(nums, k):
 arr = [1, 2, 3]
 k = 3
 print(subarray_sum(arr, k))
+
